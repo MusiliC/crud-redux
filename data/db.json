@@ -1,13 +1,6 @@
 {
   "user": [
     {
-      "name": "Brian",
-      "address": "Kasarani",
-      "email": "Brian@gmail.com",
-      "contact": "68687334",
-      "id": 1
-    },
-    {
       "name": "Emmanuel",
       "address": "Kahawa",
       "email": "manu@gmail.com",
@@ -20,6 +13,20 @@
       "email": "moryn@gmail.com",
       "contact": "68634",
       "id": 3
+    },
+    {
+      "name": "Harry Potter",
+      "email": "0717250958@gmail.com",
+      "contact": "203895",
+      "address": "Machakos",
+      "id": 4
+    },
+    {
+      "name": "Karanu",
+      "email": "karamu@gmail.com",
+      "contact": "098966",
+      "address": "Kitengela",
+      "id": 5
     }
   ]
 }
