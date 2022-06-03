@@ -16,10 +16,10 @@ const usersReducer = (state = initialState, action) => {
       };
 
     case actionTypes.DELETE_USER:
-      const updatedUser = state.users.filter((user) => user.id !== action.payload.id ? action.payload : state.users)
+      const deleteUser = state.users.filter((user) => user.id !== action.payload.id ? action.payload : state.users)
       return{
         ...state,
-        user: updatedUser,
+        users: deleteUser,
         loading: false
       }
 
@@ -30,8 +30,14 @@ const usersReducer = (state = initialState, action) => {
       };
 
     case actionTypes.UPDATE_USER:
-      // console.log(action.payload);
-      return  state.users.map((user) => user.id === action.payload)
+      console.log(action.payload);
+      const editedUser =  state.users.map((user) => user.id === action.payload)
+      return {
+        ...state,
+        user: editedUser,
+        loading: false
+
+      }
 
     case actionTypes.GET_ONE_USER:
       // console.log(action.payload);

@@ -30,7 +30,7 @@ export const EditUser = () => {
         setState({...user})
     }
     
-  },[])
+  },[user])
 
   const handleInputChange = (e) => {
     setState((v) => ({ ...v, [e.target.name]: e.target.value }));
@@ -41,7 +41,7 @@ export const EditUser = () => {
     if (!name || !email || !contact || !address) {
       setError("Please input all the fields!");
     } else {
-      dispatch(updateUser(state, id));
+      dispatch(updateUser(id, state));
       navigate("/");
       setError("");
     }

@@ -1,32 +1,32 @@
 {
   "user": [
     {
-      "name": "Emmanuel",
-      "address": "Kahawa",
-      "email": "manu@gmail.com",
-      "contact": "6887334",
-      "id": 2
-    },
-    {
-      "name": "Moryn",
-      "address": "Ngara",
+      "name": "Moryn Smith",
+      "address": "Ngara ",
       "email": "moryn@gmail.com",
       "contact": "68634",
       "id": 3
     },
     {
-      "name": "Harry Potter",
-      "email": "0717250958@gmail.com",
+      "name": "Harry ",
+      "email": "harry@gmail.com",
       "contact": "203895",
       "address": "Machakos",
       "id": 4
     },
     {
-      "name": "Karanu",
-      "email": "karamu@gmail.com",
-      "contact": "098966",
-      "address": "Kitengela",
+      "name": "Caleb Wanjala",
+      "email": "caleb@gmail.com",
+      "contact": "08774787878",
+      "address": "Bungoma",
       "id": 5
+    },
+    {
+      "name": "Mayani",
+      "email": "mayani@gmail.com",
+      "contact": "08774787878",
+      "address": "Kasa",
+      "id": 6
     }
   ]
 }

@@ -8,18 +8,15 @@ function Home() {
   const { users } = useSelector((state) => state.users);
   // console.log(users);
 
-  // const handleDelete = (id) => {
-  //       dispatch(deleteUser(id))
-  // }
+  const handleDelete = (id) => {
+       dispatch(deleteUser(id))
+   }
 
   useEffect(() => {
     dispatch(getUsers());
   }, []);
 
-  //  const handleDelete = (id) => {
-  //      console.log(id);
-  //      console.log(`user ${id} clicked!`);
-  //  }
+
 
   const navigate = useNavigate();
 
@@ -67,7 +64,7 @@ function Home() {
                           type="button"
                           style={{ marginRight: "5px" }}
                           class="btn btn-danger"
-                          // onClick={handleDelete(item.id)}
+                           onClick={() => handleDelete(item.id)}
                         >
                           Delete
                         </button>
